@@ -20,6 +20,8 @@ ascii_art = """
  / __  / /_/ / /_/ / _, _/  / /_/ / /_/ / /_/ /___/ // /    
 /_/ /_/\____/\____/_/ |_|  /_____/\____/\____//____//_/   
 
+github.com/flooowd
+
 """
 
 client = SteamClient()
@@ -108,10 +110,9 @@ def main():
                 main()
             else:
                 game_name = str(get_game_name[str(game_id)]["data"]["name"])
-
             client.send(MsgProto(EMsg.ClientGamesPlayed), {'games_played': [{'game_id': game_id, 'game_extra_info': custom_game_name},]})
             system(f"title Steam Hour Boost - @flooowd - Running {game_name}")
-            print(f'[STB] Game: {game_name} | Status: Running')
+            print(f'[STB] Game: {game_name} | Status: Running | @flooowd')
             client.run_forever()
         else:
             system('cls')
