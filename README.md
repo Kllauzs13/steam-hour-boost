@@ -6,7 +6,7 @@
 # 🚀 Steam Hour Boost - Free & Open Source Hour Boost
 
 ### [Download Here](https://github.com/flooowd/steam-hour-boost/releases) the compiled version.
-[![Terminal](https://cdn.upload.systems/uploads/rT91Ga90.png)]()
+[![Terminal](https://cdn.upload.systems/uploads/lHWpZ5h8.png)]()
 
 ### Get the Game ID in: [https://steamdb.info/search/](https://steamdb.info/search/)
 
