@@ -21,3 +21,4 @@ cd src
 pyinstaller --noconfirm --onefile --console  "./main.py"
 ```
 
+### Get the Game ID in: [https://steamdb.info/search/](https://steamdb.info/search/)
