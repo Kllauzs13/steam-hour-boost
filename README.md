@@ -6,10 +6,9 @@
 # 🚀 Steam Hour Boost - Free & Open Source Hour Boost
 
 ### [Download Here](https://github.com/flooowd/steam-hour-boost/releases) the compiled version.
-
 [![Terminal](https://cdn.upload.systems/uploads/rT91Ga90.png)]()
 
-
+### Get the Game ID in: [https://steamdb.info/search/](https://steamdb.info/search/)
 
 ## Or compile yourself using the code below
 
@@ -21,4 +20,3 @@ cd src
 pyinstaller --noconfirm --onefile --console  "./main.py"
 ```
 
-### Get the Game ID in: [https://steamdb.info/search/](https://steamdb.info/search/)
