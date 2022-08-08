@@ -33,17 +33,17 @@ def login():
     if str(account_login) == "EResult.AccountLoginDeniedNeedTwoFactor":
         system('cls')
         login_with_steam_guard(user, passw)
-        main(user, passw)
+        main()
     elif str(account_login) == "EResult.AccountLogonDenied":
         system('cls')
         login_with_email_auth_code(user, passw)
-        main(user, passw)
+        main()
     elif str(account_login) == "EResult.InvalidPassword":
         system('cls')
         print('[ERROR] Invalid Login or Password.')
         login()
     elif str(account_login) == "EResult.OK":
-        main(user, passw)
+       main()
     else:
         print("[ERROR]: " + str(account_login))
         system('pause')
@@ -51,7 +51,7 @@ def login():
 
 def login_with_email_auth_code(username, password):
     print(ascii_art)
-    code = str(input('[STB] Steam Guard Code (sended to your email): '))
+    code = str(input('[STB] Steam Guard Code (sent to your email): '))
     account_login = client.login(username=username, password=password, auth_code=code)
     if str(account_login) == "EResult.InvalidPassword":
         system('cls')
